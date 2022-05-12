@@ -23,8 +23,9 @@ function calculate(student)
 	{student.grade="E"}
 	else
 	{student.grade="F"}
-	console.log(totalMarks);
-	console.log(avg);
-	console.log(student.grade);
+	console.log(student.name)
+	console.log("TotalMarks = ",totalMarks);
+	console.log("Average = ",avg);
+	console.log("Grade is ",student.grade);
 }
 calculate(pupil);
